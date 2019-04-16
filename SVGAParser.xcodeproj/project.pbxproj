@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		651C3F4661ED03D10A53EB32 /* libPods-SVGAParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1AA96605BEAE894B36753B /* libPods-SVGAParser.a */; };
+		C04B482C2265E5AD00B6798B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B482B2265E5AD00B6798B /* main.m */; };
+		C04B48342265F19500B6798B /* SVGAParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B48332265F19500B6798B /* SVGAParser.m */; };
+		C04B48382265F21300B6798B /* Svga.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = C04B48372265F21300B6798B /* Svga.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C04B48262265E5AD00B6798B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D6539EBF88A7E098A05DF6F /* Pods-SVGAParser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGAParser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SVGAParser/Pods-SVGAParser.debug.xcconfig"; sourceTree = "<group>"; };
+		6D1AA96605BEAE894B36753B /* libPods-SVGAParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SVGAParser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCA74F22F9FCFA91CA49AB8 /* Pods-SVGAParser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SVGAParser.release.xcconfig"; path = "Pods/Target Support Files/Pods-SVGAParser/Pods-SVGAParser.release.xcconfig"; sourceTree = "<group>"; };
+		C04B48282265E5AD00B6798B /* SVGAParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SVGAParser; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04B482B2265E5AD00B6798B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C04B48322265F19500B6798B /* SVGAParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVGAParser.h; sourceTree = "<group>"; };
+		C04B48332265F19500B6798B /* SVGAParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVGAParser.m; sourceTree = "<group>"; };
+		C04B48362265F21300B6798B /* Svga.pbobjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Svga.pbobjc.h; sourceTree = "<group>"; };
+		C04B48372265F21300B6798B /* Svga.pbobjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Svga.pbobjc.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C04B48252265E5AD00B6798B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651C3F4661ED03D10A53EB32 /* libPods-SVGAParser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C04B481F2265E5AD00B6798B = {
+			isa = PBXGroup;
+			children = (
+				C04B482A2265E5AD00B6798B /* SVGAParser */,
+				C04B48292265E5AD00B6798B /* Products */,
+				CF93A002E56D0C889213CA77 /* Pods */,
+				F28128ECEB8504469C63E9ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C04B48292265E5AD00B6798B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C04B48282265E5AD00B6798B /* SVGAParser */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C04B482A2265E5AD00B6798B /* SVGAParser */ = {
+			isa = PBXGroup;
+			children = (
+				C04B48352265F21300B6798B /* pbobjc */,
+				C04B482B2265E5AD00B6798B /* main.m */,
+				C04B48322265F19500B6798B /* SVGAParser.h */,
+				C04B48332265F19500B6798B /* SVGAParser.m */,
+			);
+			path = SVGAParser;
+			sourceTree = "<group>";
+		};
+		C04B48352265F21300B6798B /* pbobjc */ = {
+			isa = PBXGroup;
+			children = (
+				C04B48362265F21300B6798B /* Svga.pbobjc.h */,
+				C04B48372265F21300B6798B /* Svga.pbobjc.m */,
+			);
+			path = pbobjc;
+			sourceTree = "<group>";
+		};
+		CF93A002E56D0C889213CA77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D6539EBF88A7E098A05DF6F /* Pods-SVGAParser.debug.xcconfig */,
+				BFCA74F22F9FCFA91CA49AB8 /* Pods-SVGAParser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F28128ECEB8504469C63E9ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D1AA96605BEAE894B36753B /* libPods-SVGAParser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C04B48272265E5AD00B6798B /* SVGAParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C04B482F2265E5AD00B6798B /* Build configuration list for PBXNativeTarget "SVGAParser" */;
+			buildPhases = (
+				E8791EBABAA34140CACEB207 /* [CP] Check Pods Manifest.lock */,
+				C04B48242265E5AD00B6798B /* Sources */,
+				C04B48252265E5AD00B6798B /* Frameworks */,
+				C04B48262265E5AD00B6798B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVGAParser;
+			productName = SVGAParser;
+			productReference = C04B48282265E5AD00B6798B /* SVGAParser */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C04B48202265E5AD00B6798B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "方阳";
+				TargetAttributes = {
+					C04B48272265E5AD00B6798B = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = C04B48232265E5AD00B6798B /* Build configuration list for PBXProject "SVGAParser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C04B481F2265E5AD00B6798B;
+			productRefGroup = C04B48292265E5AD00B6798B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C04B48272265E5AD00B6798B /* SVGAParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E8791EBABAA34140CACEB207 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SVGAParser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C04B48242265E5AD00B6798B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04B48382265F21300B6798B /* Svga.pbobjc.m in Sources */,
+				C04B482C2265E5AD00B6798B /* main.m in Sources */,
+				C04B48342265F19500B6798B /* SVGAParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C04B482D2265E5AD00B6798B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C04B482E2265E5AD00B6798B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C04B48302265E5AD00B6798B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D6539EBF88A7E098A05DF6F /* Pods-SVGAParser.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C04B48312265E5AD00B6798B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFCA74F22F9FCFA91CA49AB8 /* Pods-SVGAParser.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C04B48232265E5AD00B6798B /* Build configuration list for PBXProject "SVGAParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C04B482D2265E5AD00B6798B /* Debug */,
+				C04B482E2265E5AD00B6798B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C04B482F2265E5AD00B6798B /* Build configuration list for PBXNativeTarget "SVGAParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C04B48302265E5AD00B6798B /* Debug */,
+				C04B48312265E5AD00B6798B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C04B48202265E5AD00B6798B /* Project object */;
+}
